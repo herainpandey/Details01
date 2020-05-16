@@ -15,7 +15,7 @@ public class FetchingDetails {
 	
 	public static void main(String Args[])
 	{
-   
+	System.out.println("New Change");
     String[] expectedlist = {"iPhone", "home"};
 	RestAssured.baseURI =  "http://localhost:3000";
 	StudentDetail sd = given().expect().defaultParser(Parser.JSON)
